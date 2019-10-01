@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="libSmartIO-STM32F4xx-GCC-LL" />
+		<Option pch_mode="2" />
+		<Option compiler="iccarmctxcg" />
+		<Build>
+			<Target title="Debug">
+				<Option output="./bin/Debug/libSmartIO-STM32F4xx-GCC-LL.a" prefix_auto="0" extension_auto="0" />
+				<Option working_dir="" />
+				<Option object_output="obj/Debug/" />
+				<Option external_deps=";" />
+				<Option type="2" />
+				<Option compiler="iccarmctxcg" />
+				<Compiler>
+					<Add option="-mthumb" />
+					<Add option="-DDEBUG=1" />
+					<Add option="-ggdb" />
+					<Add option="-DUSE_FULL_LL_DRIVER" />
+					<Add option="-DSTM32F411xE" />
+					<Add option="-mcpu=cortex-m4" />
+					<Add option="-DVENDOR=ST" />
+					<Add option="-DDEVICE=STM32F411RE" />
+					<Add option="-specs=nano.specs" />
+					<Add directory="inc" />
+					<Add directory="STM32F4xx_LL_Driver/Inc" />
+					<Add directory="CMSIS/Device/ST/STM32F4xx/Include" />
+					<Add directory="CMSIS/Include" />
+					<Add directory=".." />
+				</Compiler>
+				<Linker>
+					<Add option="-Wl,-Map" />
+					<Add option="-Wl,${TARGET_OUTPUT_FILE}.map" />
+					<Add option="-Wl,--gc-sections" />
+					<Add option="-n" />
+					<Add option="-Wl,-cref" />
+					<Add option="-mcpu=cortex-m4" />
+					<Add option="-mthumb" />
+					<Add option="--verbose" />
+					<Add option="-specs=nosys.specs" />
+					<Add option="-specs=nano.specs" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/liblibSmartIO-STM32F4xx-GCC-LL.elf" prefix_auto="0" extension_auto="0" />
+				<Option object_output="obj/Release/" />
+				<Option external_deps=";" />
+				<Option type="1" />
+				<Option compiler="iccarmctxcg" />
+				<Compiler>
+					<Add option="-mthumb" />
+					<Add option="-O2" />
+					<Add option="-DUSE_FULL_LL_DRIVER" />
+					<Add option="-DSTM32F411xE" />
+					<Add option="-mcpu=cortex-m4" />
+					<Add option="-DVENDOR=ST" />
+					<Add option="-DDEVICE=STM32F411RE" />
+					<Add option="-specs=nano.specs" />
+					<Add directory="C:/Work/V9/Smart.IO/MCU-App/GCC F411-ST-HAL Demo/Inc" />
+					<Add directory="C:/Work/V9/Smart.IO/MCU-App/GCC F411-ST-HAL Demo/STM32F4xx_HAL_Driver/Inc" />
+					<Add directory="C:/Work/V9/Smart.IO/MCU-App/GCC F411-ST-HAL Demo/CMSIS/Device/ST/STM32F4xx/Include" />
+					<Add directory="C:/Work/V9/Smart.IO/MCU-App/GCC F411-ST-HAL Demo/CMSIS/Include" />
+					<Add directory="C:/Work/V9/Smart.IO/MCU-App/GCC F411-ST-HAL Demo/Host_Interface_Layer" />
+				</Compiler>
+				<Linker>
+					<Add option="-Wl,-Map" />
+					<Add option='-Wl,&quot;${TARGET_OUTPUT_FILE}.map&quot;' />
+					<Add option="-Wl,--gc-sections" />
+					<Add option="-n" />
+					<Add option="-Wl,-cref" />
+					<Add option="-mcpu=cortex-m3" />
+					<Add option="-mthumb" />
+					<Add option="-specs=nosys.specs" />
+					<Add option="-specs=nano.specs" />
+				</Linker>
+				<ExtraCommands>
+					<Add after='&quot;${TARGET_COMPILER_DIR}\arm-none-eabi\bin\objcopy&quot; -O ihex   &quot;${TARGET_OUTPUT_DIR}${TARGET_OUTPUT_BASENAME}.elf&quot; &quot;${TARGET_OUTPUT_DIR}${TARGET_OUTPUT_BASENAME}.hex&quot;' />
+					<Add after='&quot;${TARGET_COMPILER_DIR}\arm-none-eabi\bin\objcopy&quot; -O binary &quot;${TARGET_OUTPUT_DIR}${TARGET_OUTPUT_BASENAME}.elf&quot; &quot;${TARGET_OUTPUT_DIR}${TARGET_OUTPUT_BASENAME}.bin&quot;' />
+				</ExtraCommands>
+			</Target>
+		</Build>
+		<Unit filename="../smartio_api.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../smartio_api.h" />
+		<Unit filename="../smartio_hardware_interface.h" />
+		<Unit filename="../smartio_interface.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../smartio_interface.h" />
+		<Unit filename="STM32F4xx_LL_Driver/Inc/stm32f4xx_ll_bus.h" />
+		<Unit filename="STM32F4xx_LL_Driver/Inc/stm32f4xx_ll_cortex.h" />
+		<Unit filename="STM32F4xx_LL_Driver/Inc/stm32f4xx_ll_exti.h" />
+		<Unit filename="STM32F4xx_LL_Driver/Inc/stm32f4xx_ll_gpio.h" />
+		<Unit filename="STM32F4xx_LL_Driver/Inc/stm32f4xx_ll_pwr.h" />
+		<Unit filename="STM32F4xx_LL_Driver/Inc/stm32f4xx_ll_rcc.h" />
+		<Unit filename="STM32F4xx_LL_Driver/Inc/stm32f4xx_ll_spi.h" />
+		<Unit filename="STM32F4xx_LL_Driver/Inc/stm32f4xx_ll_system.h" />
+		<Unit filename="STM32F4xx_LL_Driver/Inc/stm32f4xx_ll_usart.h" />
+		<Unit filename="STM32F4xx_LL_Driver/Inc/stm32f4xx_ll_utils.h" />
+		<Unit filename="STM32F4xx_LL_Driver/Src/stm32f4xx_ll_exti.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="STM32F4xx_LL_Driver/Src/stm32f4xx_ll_gpio.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="STM32F4xx_LL_Driver/Src/stm32f4xx_ll_rcc.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="STM32F4xx_LL_Driver/Src/stm32f4xx_ll_spi.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="STM32F4xx_LL_Driver/Src/stm32f4xx_ll_usart.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="STM32F4xx_LL_Driver/Src/stm32f4xx_ll_utils.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="inc/main.h" />
+		<Unit filename="src/hardware_init.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/smartio_hardware_interface.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/stm32f4xx_it.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/system_stm32f4xx.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Extensions>
+			<ImageCraft>
+				<project cbpformat="CubeMX_Importer" />
+			</ImageCraft>
+			<projectwizard TargetDevice="STM32F411RE" TargetVendor="ST" TargetHeapSize="HEAP_SIZE" TargetStackSize="STACK_SIZE" />
+			<code_completion />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

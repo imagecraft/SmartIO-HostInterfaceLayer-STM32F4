@@ -1,0 +1,11 @@
+*~
+.*~
+.DS_Store
+.Rhistory
+.RData
+*.elf
+*.o
+*.a
+*.hex
+*.bak
+*.sav

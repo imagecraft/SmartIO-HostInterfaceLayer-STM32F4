@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_layout_file>
+	<FileVersion major="1" minor="0" />
+	<ActiveTarget name="Debug" />
+	<File name="src\util.c" open="0" top="0" tabpos="3" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="0" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="src\system_stm32f4xx.c" open="0" top="0" tabpos="2" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="3" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="src\smartio_hardware_interface.c" open="1" top="1" tabpos="15" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="929" topLine="33" />
+		</Cursor>
+	</File>
+	<File name="src\hardware_init.c" open="1" top="0" tabpos="12" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="2902" topLine="57" />
+		</Cursor>
+	</File>
+	<File name="inc\main.h" open="0" top="0" tabpos="10" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="2943" topLine="51" />
+		</Cursor>
+	</File>
+	<File name="Setup\Debug\startup_stm32f411xe.s" open="0" top="0" tabpos="3" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="0" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="STM32F4xx_LL_Driver\Src\stm32f4xx_ll_gpio.c" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="2057" topLine="15" />
+		</Cursor>
+	</File>
+	<File name="STM32F4xx_LL_Driver\Inc\stm32f4xx_ll_spi.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="6621" topLine="106" />
+		</Cursor>
+	</File>
+	<File name="STM32F4xx_LL_Driver\Inc\stm32f4xx_ll_rcc.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="2305" topLine="28" />
+		</Cursor>
+	</File>
+	<File name="..\smartio_interface.c" open="1" top="0" tabpos="14" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="4038" topLine="129" />
+		</Cursor>
+	</File>
+	<File name="..\smartio_hardware_interface.h" open="0" top="0" tabpos="6" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="587" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="..\smartio_api.h" open="0" top="0" tabpos="5" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="989" topLine="216" />
+		</Cursor>
+	</File>
+	<File name="..\smartio_api.c" open="1" top="0" tabpos="13" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="21563" topLine="478" />
+		</Cursor>
+	</File>
+	<EditorTabsLayout layout="083164f05d8ded1f000e823400000002=0;,1;,2;,3;UI Demo-STM32F411-JumpStartCPP:Src\main.cpp,4;UI Demo-STM32F411-JumpStartCPP:Src\ui.c,5;,6;LibSmartIO-STM32F4xx-GCC-JSAPI:handlers.c,7;LibSmartIO-STM32F4xx-GCC-JSAPI:..\smartio_interface.h,8;LibSmartIO-STM32F4xx-GCC-JSAPI:..\smartio_hardware_interface.h,9;LibSmartIO-STM32F4xx-GCC-JSAPI:..\smartio_api.h,10;LibSmartIO-STM32F4xx-GCC-JSAPI:smartio_hardware_interface.cpp,11;SmartIO-STM32F4xx-GCC-LL:src\hardware_init.c,12;LibSmartIO-STM32F4xx-GCC-JSAPI:..\smartio_api.c,13;LibSmartIO-STM32F4xx-GCC-JSAPI:..\smartio_interface.c,*14;SmartIO-STM32F4xx-GCC-LL:src\smartio_hardware_interface.c@layout2|name=dummy;caption=;state=2098174;dir=3;layer=0;row=0;pos=0;prop=100000;bestw=458;besth=279;minw=458;minh=279;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=083164f05d8ded1f000e823400000002;caption=;state=2098172;dir=5;layer=0;row=0;pos=0;prop=100000;bestw=200;besth=200;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|dock_size(5,0,0)=202|" />
+</CodeBlocks_layout_file>

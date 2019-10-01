@@ -1,0 +1,305 @@
+# depslib dependency file v1.0
+1569572722 source:c:\work\v9\smart.io\mcu-app\host_interface_layer\smartio_api.c
+	<stdarg.h>
+	"smartio_api.h"
+	"smartio_interface.h"
+	"smartio_hardware_interface.h"
+
+1569568050 c:\work\v9\smart.io\mcu-app\host_interface_layer\smartio_api.h
+	<stdint.h>
+
+1569572690 c:\work\v9\smart.io\mcu-app\host_interface_layer\smartio_interface.h
+	<stdint.h>
+
+1569493333 c:\work\v9\smart.io\mcu-app\host_interface_layer\smartio_hardware_interface.h
+
+1569572690 source:c:\work\v9\smart.io\mcu-app\host_interface_layer\smartio_interface.c
+	<stdio.h>
+	<ctype.h>
+	<string.h>
+	<stdlib.h>
+	"smartio_api.h"
+	"smartio_interface.h"
+	"smartio_hardware_interface.h"
+
+1569914351 source:c:\work\v9\smart.io\mcu-app\host_interface_layer\libsmartio-stm32f4xx-gcc-ll\src\hardware_init.c
+	"main.h"
+
+1569583294 c:\work\v9\smart.io\mcu-app\host_interface_layer\libsmartio-stm32f4xx-gcc-ll\inc\main.h
+	"stm32f4xx_ll_rcc.h"
+	"stm32f4xx_ll_bus.h"
+	"stm32f4xx_ll_system.h"
+	"stm32f4xx_ll_exti.h"
+	"stm32f4xx_ll_cortex.h"
+	"stm32f4xx_ll_utils.h"
+	"stm32f4xx_ll_pwr.h"
+	"stm32f4xx_ll_spi.h"
+	"stm32f4xx_ll_usart.h"
+	"stm32f4xx.h"
+	"stm32f4xx_ll_gpio.h"
+
+1523755345 c:\work\v9\smart.io\mcu-app\host_interface_layer\libsmartio-stm32f4xx-gcc-ll\stm32f4xx_ll_driver\inc\stm32f4xx_ll_rcc.h
+	"stm32f4xx.h"
+
+1523755337 c:\work\v9\smart.io\mcu-app\host_interface_layer\libsmartio-stm32f4xx-gcc-ll\cmsis\device\st\stm32f4xx\include\stm32f4xx.h
+	"stm32f405xx.h"
+	"stm32f415xx.h"
+	"stm32f407xx.h"
+	"stm32f417xx.h"
+	"stm32f427xx.h"
+	"stm32f437xx.h"
+	"stm32f429xx.h"
+	"stm32f439xx.h"
+	"stm32f401xc.h"
+	"stm32f401xe.h"
+	"stm32f410tx.h"
+	"stm32f410cx.h"
+	"stm32f410rx.h"
+	"stm32f411xe.h"
+	"stm32f446xx.h"
+	"stm32f469xx.h"
+	"stm32f479xx.h"
+	"stm32f412cx.h"
+	"stm32f412zx.h"
+	"stm32f412rx.h"
+	"stm32f412vx.h"
+	"stm32f413xx.h"
+	"stm32f423xx.h"
+	"stm32f4xx_hal.h"
+
+1523755336 c:\work\v9\smart.io\mcu-app\host_interface_layer\libsmartio-stm32f4xx-gcc-ll\cmsis\device\st\stm32f4xx\include\stm32f405xx.h
+	"core_cm4.h"
+	"system_stm32f4xx.h"
+	<stdint.h>
+
+1523755342 c:\work\v9\smart.io\mcu-app\host_interface_layer\libsmartio-stm32f4xx-gcc-ll\cmsis\include\core_cm4.h
+	<stdint.h>
+	"core_cmInstr.h"
+	"core_cmFunc.h"
+	"core_cmSimd.h"
+
+1523755342 c:\work\v9\smart.io\mcu-app\host_interface_layer\libsmartio-stm32f4xx-gcc-ll\cmsis\include\core_cminstr.h
+	"cmsis_armcc.h"
+	"cmsis_armcc_V6.h"
+	"cmsis_gcc.h"
+	<cmsis_iar.h>
+	<cmsis_ccs.h>
+	<cmsis_csm.h>
+
+1523755342 c:\work\v9\smart.io\mcu-app\host_interface_layer\libsmartio-stm32f4xx-gcc-ll\cmsis\include\cmsis_armcc.h
+
+1523755342 c:\work\v9\smart.io\mcu-app\host_interface_layer\libsmartio-stm32f4xx-gcc-ll\cmsis\include\cmsis_armcc_v6.h
+
+1523755342 c:\work\v9\smart.io\mcu-app\host_interface_layer\libsmartio-stm32f4xx-gcc-ll\cmsis\include\cmsis_gcc.h
+
+1523755342 c:\work\v9\smart.io\mcu-app\host_interface_layer\libsmartio-stm32f4xx-gcc-ll\cmsis\include\core_cmfunc.h
+	"cmsis_armcc.h"
+	"cmsis_armcc_V6.h"
+	"cmsis_gcc.h"
+	<cmsis_iar.h>
+	<cmsis_ccs.h>
+	<cmsis_csm.h>
+
+1523755342 c:\work\v9\smart.io\mcu-app\host_interface_layer\libsmartio-stm32f4xx-gcc-ll\cmsis\include\core_cmsimd.h
+	"cmsis_armcc.h"
+	"cmsis_armcc_V6.h"
+	"cmsis_gcc.h"
+	<cmsis_iar.h>
+	<cmsis_ccs.h>
+	<cmsis_csm.h>
+
+1523755337 c:\work\v9\smart.io\mcu-app\host_interface_layer\libsmartio-stm32f4xx-gcc-ll\cmsis\device\st\stm32f4xx\include\system_stm32f4xx.h
+
+1523755336 c:\work\v9\smart.io\mcu-app\host_interface_layer\libsmartio-stm32f4xx-gcc-ll\cmsis\device\st\stm32f4xx\include\stm32f415xx.h
+	"core_cm4.h"
+	"system_stm32f4xx.h"
+	<stdint.h>
+
+1523755336 c:\work\v9\smart.io\mcu-app\host_interface_layer\libsmartio-stm32f4xx-gcc-ll\cmsis\device\st\stm32f4xx\include\stm32f407xx.h
+	"core_cm4.h"
+	"system_stm32f4xx.h"
+	<stdint.h>
+
+1523755337 c:\work\v9\smart.io\mcu-app\host_interface_layer\libsmartio-stm32f4xx-gcc-ll\cmsis\device\st\stm32f4xx\include\stm32f417xx.h
+	"core_cm4.h"
+	"system_stm32f4xx.h"
+	<stdint.h>
+
+1523755337 c:\work\v9\smart.io\mcu-app\host_interface_layer\libsmartio-stm32f4xx-gcc-ll\cmsis\device\st\stm32f4xx\include\stm32f427xx.h
+	"core_cm4.h"
+	"system_stm32f4xx.h"
+	<stdint.h>
+
+1523755337 c:\work\v9\smart.io\mcu-app\host_interface_layer\libsmartio-stm32f4xx-gcc-ll\cmsis\device\st\stm32f4xx\include\stm32f437xx.h
+	"core_cm4.h"
+	"system_stm32f4xx.h"
+	<stdint.h>
+
+1523755337 c:\work\v9\smart.io\mcu-app\host_interface_layer\libsmartio-stm32f4xx-gcc-ll\cmsis\device\st\stm32f4xx\include\stm32f429xx.h
+	"core_cm4.h"
+	"system_stm32f4xx.h"
+	<stdint.h>
+
+1523755337 c:\work\v9\smart.io\mcu-app\host_interface_layer\libsmartio-stm32f4xx-gcc-ll\cmsis\device\st\stm32f4xx\include\stm32f439xx.h
+	"core_cm4.h"
+	"system_stm32f4xx.h"
+	<stdint.h>
+
+1523755336 c:\work\v9\smart.io\mcu-app\host_interface_layer\libsmartio-stm32f4xx-gcc-ll\cmsis\device\st\stm32f4xx\include\stm32f401xc.h
+	"core_cm4.h"
+	"system_stm32f4xx.h"
+	<stdint.h>
+
+1523755336 c:\work\v9\smart.io\mcu-app\host_interface_layer\libsmartio-stm32f4xx-gcc-ll\cmsis\device\st\stm32f4xx\include\stm32f401xe.h
+	"core_cm4.h"
+	"system_stm32f4xx.h"
+	<stdint.h>
+
+1523755336 c:\work\v9\smart.io\mcu-app\host_interface_layer\libsmartio-stm32f4xx-gcc-ll\cmsis\device\st\stm32f4xx\include\stm32f410tx.h
+	"core_cm4.h"
+	"system_stm32f4xx.h"
+	<stdint.h>
+
+1523755336 c:\work\v9\smart.io\mcu-app\host_interface_layer\libsmartio-stm32f4xx-gcc-ll\cmsis\device\st\stm32f4xx\include\stm32f410cx.h
+	"core_cm4.h"
+	"system_stm32f4xx.h"
+	<stdint.h>
+
+1523755336 c:\work\v9\smart.io\mcu-app\host_interface_layer\libsmartio-stm32f4xx-gcc-ll\cmsis\device\st\stm32f4xx\include\stm32f410rx.h
+	"core_cm4.h"
+	"system_stm32f4xx.h"
+	<stdint.h>
+
+1523755336 c:\work\v9\smart.io\mcu-app\host_interface_layer\libsmartio-stm32f4xx-gcc-ll\cmsis\device\st\stm32f4xx\include\stm32f411xe.h
+	"core_cm4.h"
+	"system_stm32f4xx.h"
+	<stdint.h>
+
+1523755337 c:\work\v9\smart.io\mcu-app\host_interface_layer\libsmartio-stm32f4xx-gcc-ll\cmsis\device\st\stm32f4xx\include\stm32f446xx.h
+	"core_cm4.h"
+	"system_stm32f4xx.h"
+	<stdint.h>
+
+1523755337 c:\work\v9\smart.io\mcu-app\host_interface_layer\libsmartio-stm32f4xx-gcc-ll\cmsis\device\st\stm32f4xx\include\stm32f469xx.h
+	"core_cm4.h"
+	"system_stm32f4xx.h"
+	<stdint.h>
+
+1523755337 c:\work\v9\smart.io\mcu-app\host_interface_layer\libsmartio-stm32f4xx-gcc-ll\cmsis\device\st\stm32f4xx\include\stm32f479xx.h
+	"core_cm4.h"
+	"system_stm32f4xx.h"
+	<stdint.h>
+
+1523755336 c:\work\v9\smart.io\mcu-app\host_interface_layer\libsmartio-stm32f4xx-gcc-ll\cmsis\device\st\stm32f4xx\include\stm32f412cx.h
+	"core_cm4.h"
+	"system_stm32f4xx.h"
+	<stdint.h>
+
+1523755336 c:\work\v9\smart.io\mcu-app\host_interface_layer\libsmartio-stm32f4xx-gcc-ll\cmsis\device\st\stm32f4xx\include\stm32f412zx.h
+	"core_cm4.h"
+	"system_stm32f4xx.h"
+	<stdint.h>
+
+1523755336 c:\work\v9\smart.io\mcu-app\host_interface_layer\libsmartio-stm32f4xx-gcc-ll\cmsis\device\st\stm32f4xx\include\stm32f412rx.h
+	"core_cm4.h"
+	"system_stm32f4xx.h"
+	<stdint.h>
+
+1523755336 c:\work\v9\smart.io\mcu-app\host_interface_layer\libsmartio-stm32f4xx-gcc-ll\cmsis\device\st\stm32f4xx\include\stm32f412vx.h
+	"core_cm4.h"
+	"system_stm32f4xx.h"
+	<stdint.h>
+
+1523755336 c:\work\v9\smart.io\mcu-app\host_interface_layer\libsmartio-stm32f4xx-gcc-ll\cmsis\device\st\stm32f4xx\include\stm32f413xx.h
+	"core_cm4.h"
+	"system_stm32f4xx.h"
+	<stdint.h>
+
+1523755337 c:\work\v9\smart.io\mcu-app\host_interface_layer\libsmartio-stm32f4xx-gcc-ll\cmsis\device\st\stm32f4xx\include\stm32f423xx.h
+	"core_cm4.h"
+	"system_stm32f4xx.h"
+	<stdint.h>
+
+1523755345 c:\work\v9\smart.io\mcu-app\host_interface_layer\libsmartio-stm32f4xx-gcc-ll\stm32f4xx_ll_driver\inc\stm32f4xx_ll_bus.h
+	"stm32f4xx.h"
+
+1523755345 c:\work\v9\smart.io\mcu-app\host_interface_layer\libsmartio-stm32f4xx-gcc-ll\stm32f4xx_ll_driver\inc\stm32f4xx_ll_system.h
+	"stm32f4xx.h"
+
+1523755345 c:\work\v9\smart.io\mcu-app\host_interface_layer\libsmartio-stm32f4xx-gcc-ll\stm32f4xx_ll_driver\inc\stm32f4xx_ll_exti.h
+	"stm32f4xx.h"
+
+1523755345 c:\work\v9\smart.io\mcu-app\host_interface_layer\libsmartio-stm32f4xx-gcc-ll\stm32f4xx_ll_driver\inc\stm32f4xx_ll_cortex.h
+	"stm32f4xx.h"
+
+1523755345 c:\work\v9\smart.io\mcu-app\host_interface_layer\libsmartio-stm32f4xx-gcc-ll\stm32f4xx_ll_driver\inc\stm32f4xx_ll_utils.h
+	"stm32f4xx.h"
+
+1523755345 c:\work\v9\smart.io\mcu-app\host_interface_layer\libsmartio-stm32f4xx-gcc-ll\stm32f4xx_ll_driver\inc\stm32f4xx_ll_pwr.h
+	"stm32f4xx.h"
+
+1523755345 c:\work\v9\smart.io\mcu-app\host_interface_layer\libsmartio-stm32f4xx-gcc-ll\stm32f4xx_ll_driver\inc\stm32f4xx_ll_spi.h
+	"stm32f4xx.h"
+
+1523755345 c:\work\v9\smart.io\mcu-app\host_interface_layer\libsmartio-stm32f4xx-gcc-ll\stm32f4xx_ll_driver\inc\stm32f4xx_ll_usart.h
+	"stm32f4xx.h"
+
+1523755345 c:\work\v9\smart.io\mcu-app\host_interface_layer\libsmartio-stm32f4xx-gcc-ll\stm32f4xx_ll_driver\inc\stm32f4xx_ll_gpio.h
+	"stm32f4xx.h"
+
+1569891336 source:c:\work\v9\smart.io\mcu-app\host_interface_layer\libsmartio-stm32f4xx-gcc-ll\src\smartio_hardware_interface.c
+	<stdio.h>
+	<stdarg.h>
+	<stdint.h>
+	"main.h"
+	"smartio_interface.h"
+	"smartio_hardware_interface.h"
+
+1523755347 source:c:\work\v9\smart.io\mcu-app\host_interface_layer\libsmartio-stm32f4xx-gcc-ll\src\stm32f4xx_it.c
+	"stm32f4xx.h"
+	"stm32f4xx_it.h"
+
+1523755347 c:\work\v9\smart.io\mcu-app\host_interface_layer\libsmartio-stm32f4xx-gcc-ll\inc\stm32f4xx_it.h
+	"stm32f4xx.h"
+	"stm32f4xx_ll_system.h"
+	"stm32f4xx_ll_gpio.h"
+	"stm32f4xx_ll_exti.h"
+	"main.h"
+
+1523755347 source:c:\work\v9\smart.io\mcu-app\host_interface_layer\libsmartio-stm32f4xx-gcc-ll\src\system_stm32f4xx.c
+	"stm32f4xx.h"
+
+1523755347 source:c:\work\v9\smart.io\mcu-app\host_interface_layer\libsmartio-stm32f4xx-gcc-ll\stm32f4xx_ll_driver\src\stm32f4xx_ll_exti.c
+	"stm32f4xx_ll_exti.h"
+	"stm32_assert.h"
+
+1523755347 c:\work\v9\smart.io\mcu-app\host_interface_layer\libsmartio-stm32f4xx-gcc-ll\inc\stm32_assert.h
+
+1523755347 source:c:\work\v9\smart.io\mcu-app\host_interface_layer\libsmartio-stm32f4xx-gcc-ll\stm32f4xx_ll_driver\src\stm32f4xx_ll_gpio.c
+	"stm32f4xx_ll_gpio.h"
+	"stm32f4xx_ll_bus.h"
+	"stm32_assert.h"
+
+1523755347 source:c:\work\v9\smart.io\mcu-app\host_interface_layer\libsmartio-stm32f4xx-gcc-ll\stm32f4xx_ll_driver\src\stm32f4xx_ll_rcc.c
+	"stm32f4xx_ll_rcc.h"
+	"stm32_assert.h"
+
+1523755347 source:c:\work\v9\smart.io\mcu-app\host_interface_layer\libsmartio-stm32f4xx-gcc-ll\stm32f4xx_ll_driver\src\stm32f4xx_ll_spi.c
+	"stm32f4xx_ll_spi.h"
+	"stm32f4xx_ll_bus.h"
+	"stm32f4xx_ll_rcc.h"
+	"stm32_assert.h"
+
+1523755347 source:c:\work\v9\smart.io\mcu-app\host_interface_layer\libsmartio-stm32f4xx-gcc-ll\stm32f4xx_ll_driver\src\stm32f4xx_ll_usart.c
+	"stm32f4xx_ll_usart.h"
+	"stm32f4xx_ll_rcc.h"
+	"stm32f4xx_ll_bus.h"
+	"stm32_assert.h"
+
+1523755347 source:c:\work\v9\smart.io\mcu-app\host_interface_layer\libsmartio-stm32f4xx-gcc-ll\stm32f4xx_ll_driver\src\stm32f4xx_ll_utils.c
+	"stm32f4xx_ll_utils.h"
+	"stm32f4xx_ll_rcc.h"
+	"stm32f4xx_ll_system.h"
+	"stm32f4xx_ll_pwr.h"
+	"stm32_assert.h"
+
